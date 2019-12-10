@@ -1,7 +1,7 @@
 node default{
 
 }
-node 'master.puppet.vm'{
+node 'ip-172-31-21-195.eu-west-2.compute.internal'{
   include role::master_server
 }
 node /^web/ {
