@@ -2,7 +2,7 @@ node default{
 
 }
 node 'ip-172-31-21-195.eu-west-2.compute.internal'{
-  include role::master_server
+  include  role::master_server
 }
 node /^web/ {
   include role::app_server
