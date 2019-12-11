@@ -1,5 +1,5 @@
 node default{
-
+  include  role::master_server
 }
 node 'puppet'{
   include  role::master_server
